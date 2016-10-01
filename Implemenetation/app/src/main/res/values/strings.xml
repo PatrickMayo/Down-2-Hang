@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Down2Hang</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Default and Common Values -->
+    <string name= "default_lat">39.7104</string>
+    <string name= "default_long">-75.1202</string>
+
+    <!-- Menu -->
+    <string name="menu_refresh">Refresh</string>
+
+    <!-- Create Account Strings -->
+    <string name="create_account_title">Create Account</string>
+    <string name="create_account_username_label">Username:</string>
+    <string name="create_account_profile_icon_label">Icon:</string>
+    <string name="create_account_select_image_button_text">Select Image</string>
+    <string name="create_account_edit_username_hint">Username?</string>
+    <string name="create_account_no_connection_error">ERROR - No internet connection.</string>
+    <string name="create_account_no_username_error">Enter a username!</string>
+    <string name="create_account_invalid_username_error">Invalid username!</string>
+    <string name="create_account_app_name_all_caps">DOWN2HANG</string>
+
+
+    <!-- Main Activity Strings -->
+    <string name="main_hangout_button_text_create">CREATE HANGOUT</string>
+    <string name="main_no_recent_users">No Recent Users</string>
+    <string name="main_hangout_button_text_your">YOUR HANGOUT</string>
+
+    <!-- Create Hangout Strings -->
+    <string name="create_hangout_lets_hang">LET\'S HANG!</string>
+    <string name="create_hangout_search">Search</string>
+    <string name="create_hangout_add">ADD</string>
+
+
+
+    <string name="leave_button">Leave</string>
+    <string name="manage_contacts_search_user_label">Search User:</string>
+
+    </resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="385dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mainListItemCollapsedView">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/userStatusImageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/green_circle_icone_4156_128"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some Username"
+            android:scrollHorizontally="true"
+            android:maxLength="12"
+            android:ellipsize="end"
+            android:lines="1"
+            android:id="@+id/usernameLabel"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/userStatusImageView"
+            android:layout_alignBottom="@+id/userStatusImageView"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="385dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mainListItemExpandedView">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/userIconImageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/green_circle_icone_4156_128"
+            android:scaleType="fitXY"
+            android:padding="5dp"
+            android:background="@mipmap/default_profile_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/expandedUsernameLabel"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/userIconImageView"
+            android:layout_toEndOf="@+id/userIconImageView"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geo"
+            android:id="@+id/expandedLocationLabel"
+            android:textSize="24dp"
+            android:layout_below="@+id/expandedUsernameLabel"
+            android:layout_toRightOf="@+id/userIconImageView"
+            android:layout_toEndOf="@+id/userIconImageView"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+</LinearLayout>

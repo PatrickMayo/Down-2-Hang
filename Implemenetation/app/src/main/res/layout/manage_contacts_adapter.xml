@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:id="@+id/manageContactsAdapterUserNameLabel"
+        android:textSize="24dp"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/manageContactsAdapterUserNameImageView"
+        android:layout_toEndOf="@+id/manageContactsAdapterUserNameImageView"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_alignBottom="@+id/manageContactsAdapterUserNameImageView"
+        android:gravity="center_vertical" />
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create_hangout_add"
+        android:id="@+id/manageContactsAdapterActionButton"
+        android:layout_alignBottom="@+id/manageContactsAdapterUserNameLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:longClickable="false"
+        android:focusable="false"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/manageContactsAdapterUserNameImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/default_profile_icon"
+        android:padding="5dp" />
+</RelativeLayout>
